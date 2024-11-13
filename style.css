@@ -1,0 +1,493 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    min-height: 100vh;
+    
+}
+
+
+
+.audihead {
+    padding: 10px;
+}
+.headside {
+    cursor: pointer;
+    display: flex;
+    margin-left: 15px;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+.menu{
+    padding: 20px;;
+    display: flex;
+}
+
+
+
+.audilogo {
+    margin-bottom: 20px;
+    height: 60px;
+    width: 120px;
+}
+
+.audilogotocentre {
+    display: flex;
+    
+
+}
+
+.backgroundimage {
+    background-image: url(./audi.jpg);
+    width: 100%;
+    height: 650px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.frontside{
+    position: relative;
+    bottom: 20px;
+}
+
+.textoncar {
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-top: 350px;
+    padding: 30px;
+    position: absolute;
+    left: 50px;
+    font-weight: lighter;
+
+}
+
+.button {
+    margin: 10px;
+    padding: 5px;
+}
+
+.largebutton01 {
+    margin-top: 15px;
+    width: 150px;
+    height: 50px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.model {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    padding: 8px;
+}
+
+.qetron {
+    width: 200px;
+    /* Initial width of the image */
+    height: auto;
+    /* Maintain aspect ratio */
+    transition: transform 0.3s ease;
+    /* Smooth transition for the transform effect */
+    cursor: pointer;
+    /* Change cursor to pointer */
+}
+
+.qetron:hover {
+    transform: scale(1.2);
+    /* Scale the image to 120% */
+}
+
+.q8 {
+    width: 200px;
+    /* Initial width of the image */
+    height: auto;
+    /* Maintain aspect ratio */
+    transition: transform 0.3s ease;
+    /* Smooth transition for the transform effect */
+    cursor: pointer;
+    /* Change cursor to pointer */
+}
+
+.q8:hover {
+    transform: scale(1.2);
+    /* Scale the image to 120% */
+}
+
+.etron {
+    width: 200px;
+    /* Initial width of the image */
+    height: auto;
+    /* Maintain aspect ratio */
+    transition: transform 0.3s ease;
+    /* Smooth transition for the transform effect */
+    cursor: pointer;
+    /* Change cursor to pointer */
+}
+
+.etron:hover {
+    transform: scale(1.2);
+    /* Scale the image to 120% */
+}
+
+.a4 {
+    width: 200px;
+    /* Initial width of the image */
+    height: auto;
+    /* Maintain aspect ratio */
+    transition: transform 0.3s ease;
+    /* Smooth transition for the transform effect */
+    cursor: pointer;
+    /* Change cursor to pointer */
+}
+
+.a4:hover {
+    transform: scale(1.2);
+    /* Scale the image to 120% */
+}
+
+.a5 {
+    width: 200px;
+    /* Initial width of the image */
+    height: auto;
+    /* Maintain aspect ratio */
+    transition: transform 0.3s ease;
+    /* Smooth transition for the transform effect */
+    cursor: pointer;
+    /* Change cursor to pointer */
+}
+
+.a5:hover {
+    transform: scale(1.2);
+    /* Scale the image to 120% */
+}
+
+.a6 {
+    width: 200px;
+    /* Initial width of the image */
+    height: auto;
+    /* Maintain aspect ratio */
+    transition: transform 0.3s ease;
+    /* Smooth transition for the transform effect */
+    cursor: pointer;
+    /* Change cursor to pointer */
+}
+
+.a6:hover {
+    transform: scale(1.2);
+    /* Scale the image to 120% */
+}
+
+.cars {
+    display: flex;
+    justify-content: space-around;
+}
+
+.carnames {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+.content1{
+    margin: 50px;
+}
+.firstimage4thpart{
+    display: flex;
+}
+.firstimagetext{
+    display: flexbox;
+    padding: 30px;
+    place-content: center;
+    
+}
+.largebutton{
+    text-align: center;
+    width: 200px;
+    height: 60px;
+    font-size: 25px;
+    color: hsl(0, 43%, 99%);
+    cursor: pointer;
+    margin-top: 30px;  
+    background-color: black; 
+}
+.days{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+}
+.content2{
+    margin: 50px;
+}
+.secondimage4thpart{
+    display: flex;
+}
+.secondimagetext{
+    display: flexbox;
+    padding: 30px;
+    place-content: center;
+}
+.audiassist{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+.fixedaudiimage {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    
+    }
+
+.thirdimagetext{
+position: relative;
+height: 300px;
+
+}
+.cartext {
+    position: absolute;
+    margin-top: 200px;
+       left: 40%;
+       transform: translate(-50%, -50%);
+       background-color: rgba(255, 255, 255, 0.8);
+       padding: 20px;
+       
+   }
+.audimap{
+    position: relative;
+    left: 40%;
+    width: 60%;
+    
+}
+
+.content4 {
+    display: flex;
+    width: 100%;
+    height: 500px;
+}
+
+
+.left-section {
+    background-color: black;
+    color: white;
+    width: 40%; /* Adjust width as needed */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.left-section h2 {
+    padding-left: 130px;
+}
+
+
+.explore-button {
+    align-items: center;
+    padding: 30px 40px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.explore-button:hover {
+    background-color: white;
+    color: black;
+}
+
+.right-section {
+    width: 60%; 
+}
+.right-section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.content5 {
+    margin-top: 40px;
+    display: flex;
+    width: 100%;
+    height: 500px;
+}
+
+/* Text section styling */
+.text-section2 {
+    background-color: black;
+    color: white;
+    width: 80%; /* Adjust width as needed */
+    padding : 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Paragraph styling */
+.text-section2 p {
+    font-size: 1.2em;
+    line-height: 1.5em;
+    margin: 40px;
+}
+
+/* Buttons container */
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+/* Button styling */
+.button {
+    padding: 10px 20px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 1em;
+}
+
+.button:hover {
+    background-color: white;
+    color: black;
+}
+
+/* Image section styling */
+.image-section2 {
+    width: 100%;
+    
+}
+.content6{
+    margin: 20px;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+.content7 {
+    margin: 10px;
+    padding: 20px;
+}
+
+.heading {
+    margin-top: 40px;
+    margin: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.image-container {
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.image-container img {
+    width: 250px;
+    height: auto;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.button-container a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000;
+}
+.presscontent{
+    display: flex;
+}
+.press1{
+margin-left: 100px;
+}
+.press2{
+margin-left: 120px;
+}
+.press3{
+margin-left: 70px;
+}
+.final{
+    position: relative;
+}
+.last{
+    position: relative;
+    bottom: 20px;
+}
+.finaltouch{
+    cursor: pointer;
+}
+.footer1{
+    cursor: pointer;
+    list-style: none;
+    background-color: black;
+    display: flex;
+    justify-content:space-around;
+    color: #fff;
+    
+    .list1{
+        list-style: none;
+        margin: 50px;
+
+    }
+    .list2{
+        list-style: none;
+        margin: 50px;
+
+    }
+    .list3{
+        list-style: none;
+        margin: 50px;
+
+    }
+   
+}
+.footer2{
+    cursor: pointer;
+    background-color: black;
+    display: flex;
+    justify-content:space;
+    color: #fff;
+
+}
+.innov{
+    list-style: none;
+    margin: 40px;
+    margin-left: 90px;
+}
+.support{
+    list-style: none;
+    margin: 40px;
+    margin-left: 140px;
+}
+.scmedia{
+    margin-left: 300px;
+    margin: 250px;
+}
+
+
+
+
+
+    
+     
+     
+    
